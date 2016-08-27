@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <string name="sight_seeing">Sight Seeing</string>
+    <string name="transport">Transport</string>
+    <string name="shopping">Shopping Hubs</string>
+    <string name="religious_monuments">Religious Monuments</string>
+</resources>

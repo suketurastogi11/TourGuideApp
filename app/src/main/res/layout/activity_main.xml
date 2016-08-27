@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suketurastogi.tourguideapp.MainActivity">
+
+    <TextView
+        android:id="@+id/sight_seeing"
+        style="@style/CategoryStyle"
+        android:background="@color/sight_seeing"
+        android:text="@string/sight_seeing" />
+
+    <TextView
+        android:id="@+id/transport"
+        style="@style/CategoryStyle"
+        android:background="@color/transport"
+        android:text="@string/transport" />
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:background="@color/shopping"
+        android:text="@string/shopping" />
+
+    <TextView
+        android:id="@+id/religious_monuments"
+        style="@style/CategoryStyle"
+        android:background="@color/religious_monuments"
+        android:text="@string/religious_monuments" />
+
+</LinearLayout>
