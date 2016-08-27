@@ -15,9 +15,9 @@ public class TransportActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<> ();
 
-        locations.add(new Location("Delhi Transport Corporation (DTC)", "India's largest bus transport systems"));
-        locations.add(new Location("Cycle-rickshaws", "Use them for joyrides"));
-        locations.add(new Location("Delhi Metro", "City's existent transport infrastructure"));
+        locations.add(new Location(getString(R.string.transport_name_one), getString(R.string.transport_address_one)));
+        locations.add(new Location(getString(R.string.transport_name_two), getString(R.string.transport_address_two)));
+        locations.add(new Location(getString(R.string.transport_name_three), getString(R.string.transport_address_three)));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

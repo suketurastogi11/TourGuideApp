@@ -15,10 +15,9 @@ public class SightSeeingActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<> ();
 
-        locations.add(new Location("India Gate", "Near Rajpath", R.drawable.india_gate));
-        locations.add(new Location("Qutab Minar", "Mehrauli", R.drawable.qutab_minar));
-        locations.add(new Location("Parliament House", "houses ministerial offices", R.drawable.parliment_house));
-
+        locations.add(new Location(getString(R.string.sight_seeing_name_one), getString(R.string.sight_seeing_address_one), R.drawable.india_gate));
+        locations.add(new Location(getString(R.string.sight_seeing_name_two), getString(R.string.sight_seeing_address_two), R.drawable.qutab_minar));
+        locations.add(new Location(getString(R.string.sight_seeing_name_three), getString(R.string.sight_seeing_address_three), R.drawable.parliment_house));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

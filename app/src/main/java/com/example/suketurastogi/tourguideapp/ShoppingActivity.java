@@ -14,9 +14,9 @@ public class ShoppingActivity extends AppCompatActivity {
         setContentView(R.layout.list_item);
         final ArrayList<Location> locations = new ArrayList<> ();
 
-        locations.add(new Location("Hauz Khas Village Market", "South Extension"));
-        locations.add(new Location("Connaught Place", "Chandni Chowk"));
-        locations.add(new Location("Sarojini Nagar", "Khan Market"));
+        locations.add(new Location(getString(R.string.shopping_name_one), getString(R.string.shopping_address_one)));
+        locations.add(new Location(getString(R.string.shopping_name_two), getString(R.string.shopping_address_two)));
+        locations.add(new Location(getString(R.string.shopping_name_three), getString(R.string.shopping_address_three)));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

@@ -15,10 +15,10 @@ public class ReligiousMonumentsActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<> ();
 
-        locations.add(new Location("Akshardham Temple", "Near Nizamuddin Bridge, New Delhi",R.drawable.akshardham ));
-        locations.add(new Location("Hanuman Mandir", "Baba Kharak Singh Marg, New Delhi ",R.drawable.hanuman_mandir ));
-        locations.add(new Location("Iskcon Temple", "Near East of Kailash, New Delhi",R.drawable.iscon_temple ));
-        locations.add(new Location("Lotus Temple", "Nehru Place, New Delhi",R.drawable.lotus_temple ));
+        locations.add(new Location(getString(R.string.religious_monuments_name_one), getString(R.string.religious_monuments_address_one), R.drawable.akshardham));
+        locations.add(new Location(getString(R.string.religious_monuments_name_two), getString(R.string.religious_monuments_address_two), R.drawable.hanuman_mandir));
+        locations.add(new Location(getString(R.string.religious_monuments_name_three), getString(R.string.religious_monuments_address_three), R.drawable.iscon_temple));
+        locations.add(new Location(getString(R.string.religious_monuments_name_four), getString(R.string.religious_monuments_address_four), R.drawable.lotus_temple));
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

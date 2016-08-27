@@ -5,4 +5,40 @@
     <string name="transport">Transport</string>
     <string name="shopping">Shopping Hubs</string>
     <string name="religious_monuments">Religious Monuments</string>
+
+    <string name="religious_monuments_name_one">Akshardham Temple</string>
+    <string name="religious_monuments_name_two">Hanuman Mandir</string>
+    <string name="religious_monuments_name_three">Iskcon Temple</string>
+    <string name="religious_monuments_name_four">Lotus Temple</string>
+
+    <string name="religious_monuments_address_one">Near Nizamuddin Bridge, New Delhi</string>
+    <string name="religious_monuments_address_two">Baba Kharak Singh Marg, New Delhi </string>
+    <string name="religious_monuments_address_three">Near East of Kailash, New Delhi</string>
+    <string name="religious_monuments_address_four">Nehru Place, New Delhi</string>
+
+    <string name="shopping_name_one">Hauz Khas Village Market</string>
+    <string name="shopping_name_two">Connaught Place</string>
+    <string name="shopping_name_three">Sarojini Nagar</string>
+
+    <string name="shopping_address_one">South Extension</string>
+    <string name="shopping_address_two">Chandni Chowk</string>
+    <string name="shopping_address_three">Khan Market</string>
+
+    <string name="sight_seeing_name_one">India Gate</string>
+    <string name="sight_seeing_name_two">Qutab Minar</string>
+    <string name="sight_seeing_name_three">Parliament House</string>
+
+    <string name="sight_seeing_address_one">Near Rajpath</string>
+    <string name="sight_seeing_address_two">Mehrauli</string>
+    <string name="sight_seeing_address_three">houses ministerial offices</string>
+
+    <string name="transport_name_one">Delhi Transport Corporation (DTC)</string>
+    <string name="transport_name_two">Cycle-rickshaws</string>
+    <string name="transport_name_three">Delhi Metro</string>
+
+    <string name="transport_address_one">India largest bus transport systems</string>
+    <string name="transport_address_two">Use them for joyrides</string>
+    <string name="transport_address_three">City existent transport infrastructure</string>
+
+
 </resources>
